@@ -14,10 +14,10 @@ window.configure(bg='gray')
 l1.grid(column=0, row=0)
 
 # Importing Images
-slot_empty = Image.open('SE_1.jpg')
+slot_empty = Image.open('green.png')
 slot_empty = slot_empty.resize((80, 90), Image.ANTIALIAS)
 my_img = ImageTk.PhotoImage(slot_empty)
-slot_filled = Image.open('SF_1.png')
+slot_filled = Image.open('red.png')
 slot_filled = slot_filled.resize((80, 90), Image.ANTIALIAS)
 my_img2 = ImageTk.PhotoImage(slot_filled)
 colour="yellow" 
